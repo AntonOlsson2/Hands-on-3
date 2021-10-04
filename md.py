@@ -54,6 +54,6 @@ def run_md():
     # Now run the dynamics
     dyn.attach(printenergy, interval=10)
     printenergy()
-    dyn.run(200)
+    dyn.run(-1)
 if __name__ == "__main__":
     run_md()
